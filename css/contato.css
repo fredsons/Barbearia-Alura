@@ -82,12 +82,13 @@ form legend {
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
-  transition: 1s background;
+  transition: 0.8s all;
 }
 
 .enviar:hover {
   cursor: pointer;
   background: darkorange;
+  transform: scale(1.2);
 }
 
 
