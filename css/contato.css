@@ -73,6 +73,23 @@ form legend {
   margin: 20px 0;
 }
 
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s background;
+}
+
+.enviar:hover {
+  cursor: pointer;
+  background: darkorange;
+}
+
 
 
 
