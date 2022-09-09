@@ -1,0 +1,45 @@
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+  border-bottom: 10px solid #fff;
+}
+
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+.ul-nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  display: inline-block;
+}
+
+.nav-ul {
+  display: flex;
+
+}
+
+
+.nav-ul li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.nav-ul a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.nav-ul a:hover {
+  color: red;
+  text-decoration: underline;
+}
