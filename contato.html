@@ -30,37 +30,37 @@
 
     <form>
       <label for="nomesobrenome"  >Nome e Sobrenome</label>
-      <input type="text" id="nomesobrenome" class="input-padrao" required>
+      <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Joao">
 
       <label for="email">Email</label>
-      <input type="email" id="email" class="input-padrao" required>
+      <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
       <label for="telefone">Telefone</label>
-      <input type="tel" id="telefone" class="input-padrao" required>
+      <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
       <label for="mensagem">Mensagem</label>
       <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
 
-      <div>
+      <fieldset>
 
-        <p>Como prefere nosso contato ?</p>
+        <legend>Como prefere nosso contato ?</legend>
 
         <label for="radio-email"> <input type="radio" name="contato" id="radio-email"  value="email" required>E-mail</label>
         
         <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone" value="telefone" required>Telefone</label>
         
-        <label for="radio-whatsapp">  <input type="radio" name="contato" id="radio-whatsapp" value="whatsapp" required>Whatsapp</label>
+        <label for="radio-whatsapp">  <input type="radio" name="contato" id="radio-whatsapp" value="whatsapp" required checked>Whatsapp</label>
 
-      </div>
+      </fieldset>
 
-      <div>
-        <p>Qual o horário prefere ser atendido</p>
+      <fieldset>
+        <legend>Qual o horário prefere ser atendido</legend>
         <select>
           <option>Manhã</option>
           <option>Tarde</option>
           <option>Noite</option>
         </select>
-      </div>
+      </fieldset>
 
       <label for="" class="checkbox"> <input type="checkbox"> Gostaria de receber nossas novidades por email ?</label>     
       <input type="submit" value="Enviar formulário">
