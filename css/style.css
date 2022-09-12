@@ -160,10 +160,33 @@ nav a:hover {
 }
 
 
-
 footer {
 	text-align: center;
 	background: url("../img/bg.jpg");
 	padding: 40px 0;
 	color: #fff;
+}
+
+@media screen and (max-width: 780px) {
+
+	.caixa,
+	.principal,
+	.conteudo-beneficios,
+	.mapa-conteudo,
+	.video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios,
+	.imagem-beneficios {
+		width: 100%;
+	}
 }
