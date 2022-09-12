@@ -68,6 +68,18 @@ nav a:hover {
 	clear: left;
 }
 
+/*.titulo-principal::second-letter {
+	font-weight: bold;
+}*/
+
+/*.titulo-principal:before {
+	content: "[ ";
+}
+
+.titulo-principal::after {
+	content: " ]";
+}*/
+
 .principal p {
 	margin: 0 0 1em;
 }
@@ -109,6 +121,10 @@ nav a:hover {
 
 .itens {
 	line-height: 1.5em;
+}
+
+.itens::before {
+	content: "★";
 }
 
 .itens:first-child {
