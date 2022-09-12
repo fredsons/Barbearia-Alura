@@ -56,6 +56,8 @@ nav a:hover {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+	padding: 3em 0;
+	background: #FEFEFE;
 }
 
 .titulo-principal {
@@ -98,9 +100,8 @@ nav a:hover {
 
 .beneficios {
 	position: relative;
-	width: 940px;
-	margin: 0 auto;
 	padding: 3em 0;
+	background: #888888;
 }
 
 .itens {
@@ -139,5 +140,4 @@ footer {
 	background: url("../img/bg.jpg");
 	padding: 40px 0;
 	color: #fff;
-	margin: 20px 0;
 }
