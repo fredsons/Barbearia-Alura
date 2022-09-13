@@ -1,2 +1,2 @@
 # Barbearia-Alura
-Projeto em desenvolvimento no treinamento da Alura
+Projeto em desenvolvido no treinamento de HTML e CSS da  Alura
